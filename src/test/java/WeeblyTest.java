@@ -33,11 +33,13 @@ public class WeeblyTest {
 
         @Override
         protected void failed(Throwable e, Description description) {
+            super.failed(e, description);
             logger.error(description, e);
         }
 
         @Override
         protected void succeeded(Description description) {
+            super.succeeded(description);
             logger.info(description);
         }
     };
