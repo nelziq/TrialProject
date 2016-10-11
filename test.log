@@ -401,3 +401,19 @@ Session ID: 3f3f9628c5a1a33c74a1c25a51e0da65
 2016-10-10 17:41:22,471 INFO WeeblyTest [pool-1-thread-1] testSignUp(SignUpTest)
 2016-10-10 17:41:26,686 DEBUG WeeblyTest [pool-1-thread-2] Log in successful.
 2016-10-10 17:41:26,809 INFO WeeblyTest [pool-1-thread-2] testLogin(LogInTest)
+2016-10-10 17:45:05,252 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='sign-up-button']
+2016-10-10 17:45:05,397 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-name']
+2016-10-10 17:45:05,661 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-email']
+2016-10-10 17:45:05,777 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-pass']
+2016-10-10 17:45:05,908 DEBUG WeeblyTest [main] Found element by Xpath = //*[contains(@class, 'signup-form__submit signup-btn submit-btn')]
+2016-10-10 17:45:06,538 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='weebly-username']
+2016-10-10 17:45:06,572 DEBUG WeeblyTest [main] Account already exists. Logging in...
+2016-10-10 17:45:06,574 INFO WeeblyTest [main] testSignUp(SignUpTest)
+2016-10-10 17:49:03,206 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='sign-up-button']
+2016-10-10 17:49:03,353 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-name']
+2016-10-10 17:49:03,573 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-email']
+2016-10-10 17:49:03,707 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-pass']
+2016-10-10 17:49:03,856 DEBUG WeeblyTest [main] Found element by Xpath = //*[contains(@class, 'signup-form__submit signup-btn submit-btn')]
+2016-10-10 17:49:04,480 DEBUG WeeblyTest [main] Found element by Xpath = //*[contains(@class, 'login-container')]
+2016-10-10 17:49:04,508 DEBUG WeeblyTest [main] Account already exists. Logging in...
+2016-10-10 17:49:04,509 INFO WeeblyTest [main] testSignUp(SignUpTest)

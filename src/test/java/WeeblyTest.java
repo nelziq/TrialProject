@@ -22,7 +22,7 @@ public class WeeblyTest {
     final String EMAIL = "user@test.com";
     final String PASSWORD = "testpassword123";
 
-    final String LOG_IN_FORM_EMAIL = "//*[@id='weebly-username']";
+
 
     protected static final Logger logger = LogManager.getLogger(WeeblyTest.class.getName());
 

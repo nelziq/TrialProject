@@ -11,6 +11,7 @@ public class SignUpTest extends WeeblyTest{
     private final String SIGN_UP_FORM_EMAIL = "//*[@id='overlay-signup-form-email']";
     private final String SIGN_UP_FORM_PASSWORD = "//*[@id='overlay-signup-form-pass']";
     private final String SIGN_UP_FORM_SUBMIT = "//*[contains(@class, 'signup-form__submit signup-btn submit-btn')]";
+    private final String LOG_IN_FORM_SCREEN = "//*[contains(@class, 'login-container')]";
 
     @Test
     public void testSignUp() {
@@ -25,12 +26,13 @@ public class SignUpTest extends WeeblyTest{
         getElement(SIGN_UP_FORM_SUBMIT).click();
 
         // if login screen appears then this user already exists
-        getElement(LOG_IN_FORM_EMAIL);
-        if (driver.findElements(By.xpath(LOG_IN_FORM_EMAIL)).size() > 0){
+        getElement(LOG_IN_FORM_SCREEN);
+        if (driver.findElements(By.xpath(LOG_IN_FORM_SCREEN)).size() > 0){
             logger.debug("Account already exists. Logging in...");
         } else {
             logger.debug("New account...");
         }
+
 
         Assert.assertTrue(true);
 
