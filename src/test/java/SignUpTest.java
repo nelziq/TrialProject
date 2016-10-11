@@ -15,17 +15,17 @@ public class SignUpTest extends WeeblyTest{
     @Test
     public void testSignUp() {
 
-        WebDriver driver = new ChromeDriver();
+        intitialize();
         driver.get("https://bre-tp.beta.weebly.com/");
 
-        getElement(driver, SIGN_UP_BUTTON).click();
-        getElement(driver, SIGN_UP_FORM_NAME).sendKeys(USER_NAME);
-        getElement(driver, SIGN_UP_FORM_EMAIL).sendKeys(EMAIL);
-        getElement(driver, SIGN_UP_FORM_PASSWORD).sendKeys(PASSWORD);
-        getElement(driver, SIGN_UP_FORM_SUBMIT).click();
+        getElement(SIGN_UP_BUTTON).click();
+        getElement(SIGN_UP_FORM_NAME).sendKeys(USER_NAME);
+        getElement(SIGN_UP_FORM_EMAIL).sendKeys(EMAIL);
+        getElement(SIGN_UP_FORM_PASSWORD).sendKeys(PASSWORD);
+        getElement(SIGN_UP_FORM_SUBMIT).click();
 
         // if login screen appears then this user already exists
-        getElement(driver, LOG_IN_FORM_EMAIL);
+        getElement(LOG_IN_FORM_EMAIL);
         if (driver.findElements(By.xpath(LOG_IN_FORM_EMAIL)).size() > 0){
             logger.debug("Account already exists. Logging in...");
         } else {

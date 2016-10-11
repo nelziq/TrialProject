@@ -26,6 +26,7 @@ public class WeeblyTest {
 
     protected static final Logger logger = LogManager.getLogger(WeeblyTest.class.getName());
 
+    protected WebDriver driver;
 
     @Rule
     public TestWatcher watchman = new TestWatcher() {
@@ -41,17 +42,18 @@ public class WeeblyTest {
         }
     };
 
-    protected WebElement getElement(WebDriver driver, String xPath){
+    protected WebElement getElement(String xPath){
         WebDriverWait wait = new WebDriverWait(driver, 5);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xPath)));
         logger.debug("Found element by Xpath = " + xPath);
         return driver.findElement(By.xpath(xPath));
     }
 
-    @Before
+    //@Before
     public void intitialize(){
         System.setProperty("webdriver.chrome.driver", "/Users/trialweeker/Downloads/chromedriver");
         System.out.println("starting selenium web driver");
+        driver = new ChromeDriver();
     }
 
 

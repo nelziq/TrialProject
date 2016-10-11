@@ -5,9 +5,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-/**
- * Created by trialweeker on 10/10/16.
- */
 public class LogInTest extends WeeblyTest {
 
     private final String LOG_IN_BUTTON = "//*[@id='login-button']";
@@ -18,13 +15,13 @@ public class LogInTest extends WeeblyTest {
     @Test
     public void testLogin() {
 
-        WebDriver driver = new ChromeDriver();
+        intitialize();
         driver.get("https://bre-tp.beta.weebly.com/");
 
-        getElement(driver, LOG_IN_BUTTON).click();
-        getElement(driver, LOG_IN_FORM_EMAIL).sendKeys(EMAIL);
-        getElement(driver, LOG_IN_FORM_PASSWORD).sendKeys(PASSWORD);
-        getElement(driver, LOG_IN_FORM_SUBMIT).click();
+        getElement(LOG_IN_BUTTON).click();
+        getElement(LOG_IN_FORM_EMAIL).sendKeys(EMAIL);
+        getElement(LOG_IN_FORM_PASSWORD).sendKeys(PASSWORD);
+        getElement(LOG_IN_FORM_SUBMIT).click();
 
         new WebDriverWait(driver, 5).until(ExpectedConditions.titleContains("Dashboard"));
         Assert.assertTrue("Failed to login to Dashboard.", driver.getTitle().contains("Dashboard"));
