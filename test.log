@@ -111,3 +111,31 @@ java.lang.AssertionError
 2016-10-10 16:49:05,534 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='weebly-username']
 2016-10-10 16:49:05,556 DEBUG WeeblyTest [main] Account already exists. Logging in...
 2016-10-10 16:49:05,628 INFO WeeblyTest [main] testSignUp(WeeblyTest)
+2016-10-10 17:20:11,380 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='sign-up-button']
+2016-10-10 17:20:11,524 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-name']
+2016-10-10 17:20:11,811 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-email']
+2016-10-10 17:20:11,927 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-pass']
+2016-10-10 17:20:12,070 DEBUG WeeblyTest [main] Found element by Xpath = //*[contains(@class, 'signup-form__submit signup-btn submit-btn')]
+2016-10-10 17:20:12,720 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='weebly-username']
+2016-10-10 17:20:12,748 DEBUG WeeblyTest [main] Account already exists. Logging in...
+2016-10-10 17:20:12,822 INFO WeeblyTest [main] testSignUp(SignUpTest)
+2016-10-10 17:20:31,899 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='login-button']
+2016-10-10 17:20:32,064 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='weebly-username']
+2016-10-10 17:20:32,178 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='weebly-password']
+2016-10-10 17:20:32,284 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='weebly-login']/p[3]/input
+2016-10-10 17:20:35,819 DEBUG WeeblyTest [main] Log in successful.
+2016-10-10 17:20:35,892 INFO WeeblyTest [main] testLogin(LogInTest)
+2016-10-10 17:24:38,206 DEBUG WeeblyTest [pool-1-thread-1] Found element by Xpath = //*[@id='sign-up-button']
+2016-10-10 17:24:38,358 DEBUG WeeblyTest [pool-1-thread-1] Found element by Xpath = //*[@id='overlay-signup-form-name']
+2016-10-10 17:24:38,468 DEBUG WeeblyTest [pool-1-thread-2] Found element by Xpath = //*[@id='login-button']
+2016-10-10 17:24:38,610 DEBUG WeeblyTest [pool-1-thread-1] Found element by Xpath = //*[@id='overlay-signup-form-email']
+2016-10-10 17:24:38,681 DEBUG WeeblyTest [pool-1-thread-2] Found element by Xpath = //*[@id='weebly-username']
+2016-10-10 17:24:38,794 DEBUG WeeblyTest [pool-1-thread-1] Found element by Xpath = //*[@id='overlay-signup-form-pass']
+2016-10-10 17:24:38,860 DEBUG WeeblyTest [pool-1-thread-2] Found element by Xpath = //*[@id='weebly-password']
+2016-10-10 17:24:38,987 DEBUG WeeblyTest [pool-1-thread-1] Found element by Xpath = //*[contains(@class, 'signup-form__submit signup-btn submit-btn')]
+2016-10-10 17:24:39,041 DEBUG WeeblyTest [pool-1-thread-2] Found element by Xpath = //*[@id='weebly-login']/p[3]/input
+2016-10-10 17:24:39,630 DEBUG WeeblyTest [pool-1-thread-1] Found element by Xpath = //*[@id='weebly-username']
+2016-10-10 17:24:39,662 DEBUG WeeblyTest [pool-1-thread-1] Account already exists. Logging in...
+2016-10-10 17:24:39,739 INFO WeeblyTest [pool-1-thread-1] testSignUp(SignUpTest)
+2016-10-10 17:24:43,684 DEBUG WeeblyTest [pool-1-thread-2] Log in successful.
+2016-10-10 17:24:43,757 INFO WeeblyTest [pool-1-thread-2] testLogin(LogInTest)

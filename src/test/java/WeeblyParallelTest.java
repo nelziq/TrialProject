@@ -6,8 +6,8 @@ public class WeeblyParallelTest {
 
     @Test
     public void parallelTest() {
-        Class[] cls = {WeeblyTest.class};
-        JUnitCore.runClasses(ParallelComputer.methods(), cls);
+        Class[] cls = {SignUpTest.class, LogInTest.class};
+        JUnitCore.runClasses(ParallelComputer.classes(), cls);
     }
 
 }

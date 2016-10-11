@@ -16,31 +16,15 @@ import org.junit.runner.Description;
 
 public class WeeblyTest {
 
-    private final boolean DEBUG_MODE = false;
+    final boolean DEBUG_MODE = false;
 
-    private final String USER_NAME = "Test User";
-    private final String EMAIL = "user@test.com";
-    private final String PASSWORD = "testpassword123";
+    final String USER_NAME = "Test User";
+    final String EMAIL = "user@test.com";
+    final String PASSWORD = "testpassword123";
 
-    private final String SIGN_UP_BUTTON = "//*[@id='sign-up-button']";
-    private final String SIGN_UP_FORM_NAME = "//*[@id='overlay-signup-form-name']";
-    private final String SIGN_UP_FORM_EMAIL = "//*[@id='overlay-signup-form-email']";
-    private final String SIGN_UP_FORM_PASSWORD = "//*[@id='overlay-signup-form-pass']";
-    private final String SIGN_UP_FORM_SUBMIT = "//*[contains(@class, 'signup-form__submit signup-btn submit-btn')]";
+    final String LOG_IN_FORM_EMAIL = "//*[@id='weebly-username']";
 
-    private final String LOG_IN_BUTTON = "//*[@id='login-button']";
-    private final String LOG_IN_FORM_EMAIL = "//*[@id='weebly-username']";
-    private final String LOG_IN_FORM_PASSWORD = "//*[@id='weebly-password']";
-    private final String LOG_IN_FORM_SUBMIT = "//*[@id='weebly-login']/p[3]/input";
-
-    private static final Logger logger = LogManager.getLogger(WeeblyTest.class.getName());
-
-    private WebElement getElement(WebDriver driver, String xPath){
-        WebDriverWait wait = new WebDriverWait(driver, 5);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xPath)));
-        logger.debug("Found element by Xpath = " + xPath);
-        return driver.findElement(By.xpath(xPath));
-    }
+    protected static final Logger logger = LogManager.getLogger(WeeblyTest.class.getName());
 
 
     @Rule
@@ -57,56 +41,17 @@ public class WeeblyTest {
         }
     };
 
+    protected WebElement getElement(WebDriver driver, String xPath){
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xPath)));
+        logger.debug("Found element by Xpath = " + xPath);
+        return driver.findElement(By.xpath(xPath));
+    }
+
     @Before
     public void intitialize(){
         System.setProperty("webdriver.chrome.driver", "/Users/trialweeker/Downloads/chromedriver");
         System.out.println("starting selenium web driver");
-    }
-
-    @Test
-    public void testSignUp() {
-
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://bre-tp.beta.weebly.com/");
-
-        getElement(driver, SIGN_UP_BUTTON).click();
-        getElement(driver, SIGN_UP_FORM_NAME).sendKeys(USER_NAME);
-        getElement(driver, SIGN_UP_FORM_EMAIL).sendKeys(EMAIL);
-        getElement(driver, SIGN_UP_FORM_PASSWORD).sendKeys(PASSWORD);
-        getElement(driver, SIGN_UP_FORM_SUBMIT).click();
-
-        // if login screen appears then this user already exists
-        getElement(driver, LOG_IN_FORM_EMAIL);
-        if (driver.findElements(By.xpath(LOG_IN_FORM_EMAIL)).size() > 0){
-            logger.debug("Account already exists. Logging in...");
-        } else {
-            logger.debug("New account...");
-        }
-
-        Assert.assertTrue(true);
-
-        if (!DEBUG_MODE) driver.quit();
-
-    }
-
-    @Test
-    public void testLogin() {
-
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://bre-tp.beta.weebly.com/");
-
-        getElement(driver, LOG_IN_BUTTON).click();
-        getElement(driver, LOG_IN_FORM_EMAIL).sendKeys(EMAIL);
-        getElement(driver, LOG_IN_FORM_PASSWORD).sendKeys(PASSWORD);
-        getElement(driver, LOG_IN_FORM_SUBMIT).click();
-
-        new WebDriverWait(driver, 5).until(ExpectedConditions.titleContains("Dashboard"));
-        Assert.assertTrue("Failed to login to Dashboard.", driver.getTitle().contains("Dashboard"));
-
-        logger.debug("Log in successful.");
-
-        if (!DEBUG_MODE) driver.quit();
-
     }
 
 
