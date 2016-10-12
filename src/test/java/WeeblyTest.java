@@ -44,11 +44,15 @@ public class WeeblyTest {
         }
     };
 
-    protected WebElement getElement(String xPath){
-        WebDriverWait wait = new WebDriverWait(driver, 5);
+    protected WebElement getElement(String xPath, int waitInSeconds){
+        WebDriverWait wait = new WebDriverWait(driver, waitInSeconds);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xPath)));
         logger.debug("Found element by Xpath = " + xPath);
         return driver.findElement(By.xpath(xPath));
+    }
+
+    protected WebElement getElement(String xPath){
+        return getElement(xPath, 5);
     }
 
     //@Before

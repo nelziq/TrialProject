@@ -733,3 +733,228 @@ Session ID: 434be798b5795c81da65f8483673afba
 2016-10-12 10:40:52,299 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='w-theme-list']/li[1]/div/div[1]
 2016-10-12 10:40:52,874 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id="w-theme-list"]/li[1]/div/div[2]/div/div[2]/a
 2016-10-12 10:40:52,913 INFO WeeblyTest [main] testSignUp(SignUpTest)
+2016-10-12 10:53:36,530 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='sign-up-button']
+2016-10-12 10:53:36,670 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-name']
+2016-10-12 10:53:36,872 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-email']
+2016-10-12 10:53:37,030 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-pass']
+2016-10-12 10:53:37,165 DEBUG WeeblyTest [main] Found element by Xpath = //*[contains(@class, 'signup-form__submit signup-btn submit-btn')]
+2016-10-12 10:53:41,703 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='choose-theme-heading']
+2016-10-12 10:53:41,710 DEBUG WeeblyTest [main] New account created.
+2016-10-12 10:53:41,740 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='w-theme-list']/li[1]/div/div[1]
+2016-10-12 10:53:41,809 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id="w-theme-list"]/li[1]/div/div[2]/div/div[2]/a
+2016-10-12 10:53:51,259 ERROR WeeblyTest [main] testSignUp(SignUpTest)
+java.lang.AssertionError: Theme could not be created.
+	at org.junit.Assert.fail(Assert.java:88) ~[junit-4.12.jar:4.12]
+	at org.junit.Assert.assertTrue(Assert.java:41) ~[junit-4.12.jar:4.12]
+	at SignUpTest.testSignUp(SignUpTest.java:61) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_102]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_102]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_102]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_102]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.12.jar:4.12]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:117) [junit-rt.jar:?]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:262) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:84) [junit-rt.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_102]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_102]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_102]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_102]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147) [idea_rt.jar:?]
+2016-10-12 10:55:36,929 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='sign-up-button']
+2016-10-12 10:55:37,087 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-name']
+2016-10-12 10:55:37,362 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-email']
+2016-10-12 10:55:37,490 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-pass']
+2016-10-12 10:55:37,672 DEBUG WeeblyTest [main] Found element by Xpath = //*[contains(@class, 'signup-form__submit signup-btn submit-btn')]
+2016-10-12 10:55:42,006 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='choose-theme-heading']
+2016-10-12 10:55:42,015 DEBUG WeeblyTest [main] New account created.
+2016-10-12 10:55:42,049 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='w-theme-list']/li[1]/div/div[1]
+2016-10-12 10:55:42,114 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id="w-theme-list"]/li[1]/div/div[2]/div/div[2]/a
+2016-10-12 10:55:52,468 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='chooseDomain']
+2016-10-12 10:55:52,476 DEBUG WeeblyTest [main] Theme selected.
+2016-10-12 10:55:52,505 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='weeblyDomain']
+2016-10-12 10:55:52,681 INFO WeeblyTest [main] testSignUp(SignUpTest)
+2016-10-12 10:58:43,382 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='sign-up-button']
+2016-10-12 10:58:43,526 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-name']
+2016-10-12 10:58:43,812 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-email']
+2016-10-12 10:58:43,943 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-pass']
+2016-10-12 10:58:44,090 DEBUG WeeblyTest [main] Found element by Xpath = //*[contains(@class, 'signup-form__submit signup-btn submit-btn')]
+2016-10-12 10:58:48,348 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='choose-theme-heading']
+2016-10-12 10:58:48,357 DEBUG WeeblyTest [main] New account created.
+2016-10-12 10:58:48,387 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='w-theme-list']/li[1]/div/div[1]
+2016-10-12 10:58:48,955 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id="w-theme-list"]/li[1]/div/div[2]/div/div[2]/a
+2016-10-12 10:58:59,858 ERROR WeeblyTest [main] testSignUp(SignUpTest)
+java.lang.AssertionError: Theme could not be created.
+	at org.junit.Assert.fail(Assert.java:88) ~[junit-4.12.jar:4.12]
+	at org.junit.Assert.assertTrue(Assert.java:41) ~[junit-4.12.jar:4.12]
+	at SignUpTest.testSignUp(SignUpTest.java:61) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_102]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_102]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_102]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_102]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.12.jar:4.12]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:117) [junit-rt.jar:?]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:262) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:84) [junit-rt.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_102]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_102]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_102]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_102]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147) [idea_rt.jar:?]
+2016-10-12 10:59:23,624 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='sign-up-button']
+2016-10-12 10:59:23,761 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-name']
+2016-10-12 10:59:23,893 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-email']
+2016-10-12 10:59:24,015 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-pass']
+2016-10-12 10:59:24,183 DEBUG WeeblyTest [main] Found element by Xpath = //*[contains(@class, 'signup-form__submit signup-btn submit-btn')]
+2016-10-12 10:59:29,580 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='choose-theme-heading']
+2016-10-12 10:59:29,587 DEBUG WeeblyTest [main] New account created.
+2016-10-12 10:59:29,616 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='w-theme-list']/li[1]/div/div[1]
+2016-10-12 10:59:29,662 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id="w-theme-list"]/li[1]/div/div[2]/div/div[2]/a
+2016-10-12 10:59:36,347 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='chooseDomain']
+2016-10-12 10:59:36,355 DEBUG WeeblyTest [main] Theme selected.
+2016-10-12 10:59:36,401 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='weeblyDomain']
+2016-10-12 10:59:36,499 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='chooseDomainDiv']/div[2]/a/span
+2016-10-12 10:59:36,759 INFO WeeblyTest [main] testSignUp(SignUpTest)
+2016-10-12 11:02:49,791 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='sign-up-button']
+2016-10-12 11:02:50,448 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-name']
+2016-10-12 11:02:50,547 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-email']
+2016-10-12 11:02:50,658 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-pass']
+2016-10-12 11:02:50,785 DEBUG WeeblyTest [main] Found element by Xpath = //*[contains(@class, 'signup-form__submit signup-btn submit-btn')]
+2016-10-12 11:02:54,851 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='choose-theme-heading']
+2016-10-12 11:02:54,857 DEBUG WeeblyTest [main] New account created.
+2016-10-12 11:02:54,884 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='w-theme-list']/li[1]/div/div[1]
+2016-10-12 11:02:54,933 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id="w-theme-list"]/li[1]/div/div[2]/div/div[2]/a
+2016-10-12 11:03:04,980 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='chooseDomain']
+2016-10-12 11:03:04,994 DEBUG WeeblyTest [main] Theme selected.
+2016-10-12 11:03:05,031 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='domainSubdomain']/div[1]/input
+2016-10-12 11:03:05,337 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='weeblyDomain']
+2016-10-12 11:03:05,472 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='chooseDomainDiv']/div[2]/a/span
+2016-10-12 11:03:05,537 INFO WeeblyTest [main] testSignUp(SignUpTest)
+2016-10-12 11:04:12,573 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='sign-up-button']
+2016-10-12 11:04:12,719 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-name']
+2016-10-12 11:04:12,835 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-email']
+2016-10-12 11:04:12,962 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-pass']
+2016-10-12 11:04:13,102 DEBUG WeeblyTest [main] Found element by Xpath = //*[contains(@class, 'signup-form__submit signup-btn submit-btn')]
+2016-10-12 11:04:17,119 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='choose-theme-heading']
+2016-10-12 11:04:17,126 DEBUG WeeblyTest [main] New account created.
+2016-10-12 11:04:17,161 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='w-theme-list']/li[1]/div/div[1]
+2016-10-12 11:04:17,736 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id="w-theme-list"]/li[1]/div/div[2]/div/div[2]/a
+2016-10-12 11:04:27,918 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='chooseDomain']
+2016-10-12 11:04:27,927 DEBUG WeeblyTest [main] Theme selected.
+2016-10-12 11:04:27,955 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='domainSubdomain']/div[1]/input
+2016-10-12 11:04:28,314 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='weeblyDomain']
+2016-10-12 11:04:28,572 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='chooseDomainDiv']/div[2]/a/span
+2016-10-12 11:04:28,643 INFO WeeblyTest [main] testSignUp(SignUpTest)
+2016-10-12 11:05:18,619 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='sign-up-button']
+2016-10-12 11:05:19,281 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-name']
+2016-10-12 11:05:19,381 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-email']
+2016-10-12 11:05:19,480 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-pass']
+2016-10-12 11:05:19,616 DEBUG WeeblyTest [main] Found element by Xpath = //*[contains(@class, 'signup-form__submit signup-btn submit-btn')]
+2016-10-12 11:05:24,428 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='choose-theme-heading']
+2016-10-12 11:05:24,434 DEBUG WeeblyTest [main] New account created.
+2016-10-12 11:05:24,464 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='w-theme-list']/li[1]/div/div[1]
+2016-10-12 11:05:25,042 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id="w-theme-list"]/li[1]/div/div[2]/div/div[2]/a
+2016-10-12 11:05:35,852 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='chooseDomain']
+2016-10-12 11:05:35,873 DEBUG WeeblyTest [main] Theme selected.
+2016-10-12 11:06:07,079 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='domainSubdomain']/div[1]/input
+2016-10-12 11:06:17,297 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='weeblyDomain']
+2016-10-12 11:06:29,070 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='chooseDomainDiv']/div[2]/a/span
+2016-10-12 11:15:59,164 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='sign-up-button']
+2016-10-12 11:15:59,297 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-name']
+2016-10-12 11:15:59,441 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-email']
+2016-10-12 11:15:59,559 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-pass']
+2016-10-12 11:15:59,680 DEBUG WeeblyTest [main] Found element by Xpath = //*[contains(@class, 'signup-form__submit signup-btn submit-btn')]
+2016-10-12 11:16:04,104 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='choose-theme-heading']
+2016-10-12 11:16:04,113 DEBUG WeeblyTest [main] New account created.
+2016-10-12 11:16:04,140 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='w-theme-list']/li[1]/div/div[1]
+2016-10-12 11:16:04,193 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id="w-theme-list"]/li[1]/div/div[2]/div/div[2]/a
+2016-10-12 11:16:17,017 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='chooseDomain']
+2016-10-12 11:16:17,027 DEBUG WeeblyTest [main] Theme selected.
+2016-10-12 11:16:17,057 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='domainSubdomain']/div[1]/input
+2016-10-12 11:16:17,542 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='weeblyDomain']
+2016-10-12 11:16:22,992 ERROR WeeblyTest [main] testSignUp(SignUpTest)
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for text ('Available') to be the value of element located by By.xpath: //*[@id='domainSubdomain-2']/div[5]/div (tried for 5 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.0.0-beta4', revision: '3169782', time: '2016-09-29 10:30:04 -0700'
+System info: host: 'alexanderbelltowne-weebly-mbp.local', ip: '10.123.142.1', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.24.417412 (ac882d3ce7c0d99292439bf3405780058fcca0a6), userDataDir=/var/folders/41/lcfk4ltd1blbgs9g6g5blwz00000gp/T/.org.chromium.Chromium.RKsCLA}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=53.0.2785.143, platform=MAC, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ff22cf763c2e69f9f477cb74be881396
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80) ~[selenium-support-3.0.0-beta4.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:265) ~[selenium-support-3.0.0-beta4.jar:?]
+	at SignUpTest.testSignUp(SignUpTest.java:74) ~[test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_102]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_102]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_102]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_102]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.12.jar:4.12]
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55) [junit-4.12.jar:4.12]
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:117) [junit-rt.jar:?]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:42) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:262) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:84) [junit-rt.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_102]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_102]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_102]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_102]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147) [idea_rt.jar:?]
+2016-10-12 11:18:57,564 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='sign-up-button']
+2016-10-12 11:18:58,220 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-name']
+2016-10-12 11:18:58,324 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-email']
+2016-10-12 11:18:58,428 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='overlay-signup-form-pass']
+2016-10-12 11:18:58,565 DEBUG WeeblyTest [main] Found element by Xpath = //*[contains(@class, 'signup-form__submit signup-btn submit-btn')]
+2016-10-12 11:19:03,817 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='choose-theme-heading']
+2016-10-12 11:19:03,825 DEBUG WeeblyTest [main] New account created.
+2016-10-12 11:19:03,855 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='w-theme-list']/li[1]/div/div[1]
+2016-10-12 11:19:04,422 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id="w-theme-list"]/li[1]/div/div[2]/div/div[2]/a
+2016-10-12 11:19:14,541 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='chooseDomain']
+2016-10-12 11:19:14,551 DEBUG WeeblyTest [main] Theme selected.
+2016-10-12 11:19:14,822 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='domainSubdomain']/div[1]/input
+2016-10-12 11:19:14,992 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='weeblyDomain']
+2016-10-12 11:19:16,352 DEBUG WeeblyTest [main] Found element by Xpath = //*[@id='chooseDomainDiv']/div[2]/a/span
+2016-10-12 11:19:16,397 INFO WeeblyTest [main] testSignUp(SignUpTest)
+2016-10-12 11:19:46,663 INFO WeeblyTest [main] testSignUp(SignUpTest)

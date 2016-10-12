@@ -60,9 +60,13 @@
       <file leaf-file-name="WeeblyTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WeeblyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="38" />
-              <folding />
+            <state relative-caret-position="341">
+              <caret line="48" column="83" selection-start-line="47" selection-start-column="8" selection-end-line="48" selection-end-column="83" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1687#1688#0" expanded="true" />
+                <element signature="e#1730#1731#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,8 +74,8 @@
       <file leaf-file-name="SignUpTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SignUpTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="191">
+              <caret line="26" column="93" selection-start-line="26" selection-start-column="93" selection-end-line="26" selection-end-column="93" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,8 +108,8 @@
       <file leaf-file-name="test.log" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8100">
-              <caret line="731" column="0" selection-start-line="731" selection-start-column="0" selection-end-line="731" selection-end-column="0" />
+            <state relative-caret-position="11460">
+              <caret line="956" column="0" selection-start-line="956" selection-start-column="0" selection-end-line="956" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -743,35 +747,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SignUpTest - 2016.10.10 at 17h 45m 06s.xml">
-      <configuration name="SignUpTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SignUpTest - 2016.10.10 at 17h 49m 04s.xml">
-      <configuration name="SignUpTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SignUpTest - 2016.10.12 at 10h 09m 16s.xml">
-      <configuration name="SignUpTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SignUpTest - 2016.10.12 at 10h 10m 17s.xml">
-      <configuration name="SignUpTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SignUpTest - 2016.10.12 at 10h 11m 23s.xml">
-      <configuration name="SignUpTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SignUpTest - 2016.10.12 at 10h 23m 48s.xml">
-      <configuration name="SignUpTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SignUpTest - 2016.10.12 at 10h 29m 25s.xml">
-      <configuration name="SignUpTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SignUpTest - 2016.10.12 at 10h 38m 10s.xml">
-      <configuration name="SignUpTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SignUpTest - 2016.10.12 at 10h 40m 53s.xml">
       <configuration name="SignUpTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeeblyParallelTest - 2016.10.11 at 14h 22m 50s.xml">
-      <configuration name="WeeblyParallelTest" configurationId="JUnit" />
+    <history-entry file="SignUpTest - 2016.10.12 at 10h 53m 51s.xml">
+      <configuration name="SignUpTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignUpTest - 2016.10.12 at 10h 55m 53s.xml">
+      <configuration name="SignUpTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignUpTest - 2016.10.12 at 10h 59m 00s.xml">
+      <configuration name="SignUpTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignUpTest - 2016.10.12 at 10h 59m 37s.xml">
+      <configuration name="SignUpTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignUpTest - 2016.10.12 at 11h 03m 05s.xml">
+      <configuration name="SignUpTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignUpTest - 2016.10.12 at 11h 04m 29s.xml">
+      <configuration name="SignUpTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignUpTest - 2016.10.12 at 11h 16m 23s.xml">
+      <configuration name="SignUpTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignUpTest - 2016.10.12 at 11h 19m 16s.xml">
+      <configuration name="SignUpTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignUpTest - 2016.10.12 at 11h 19m 46s.xml">
+      <configuration name="SignUpTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -784,7 +788,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962668" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1985703" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -817,7 +821,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -878,8 +884,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8100">
-          <caret line="731" column="0" selection-start-line="731" selection-start-column="0" selection-end-line="731" selection-end-column="0" />
+        <state relative-caret-position="11460">
+          <caret line="956" column="0" selection-start-line="956" selection-start-column="0" selection-end-line="956" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -906,16 +912,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WeeblyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="38" />
-          <folding />
+        <state relative-caret-position="341">
+          <caret line="48" column="83" selection-start-line="47" selection-start-column="8" selection-end-line="48" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1730#1731#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SignUpTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="191">
+          <caret line="26" column="93" selection-start-line="26" selection-start-column="93" selection-end-line="26" selection-end-column="93" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

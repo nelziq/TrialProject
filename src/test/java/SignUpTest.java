@@ -1,11 +1,13 @@
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+
 import java.util.Random;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SignUpTest extends WeeblyTest{
 
@@ -18,6 +20,14 @@ public class SignUpTest extends WeeblyTest{
     private final String CHOOSE_THEME_SCREEN = "//*[@id='choose-theme-heading']";
     private final String CHOOSE_THEME_BUTTON = "//*[@id=\"w-theme-list\"]/li[1]/div/div[2]/div/div[2]/a";
     private final String CHOOSE_THEME_IMAGE =  "//*[@id='w-theme-list']/li[1]/div/div[1]";
+
+    private final String CHOOSE_DOMAIN_SCREEN = "//*[@id='chooseDomain']";
+    private final String CHOOSE_DOMAIN_RADIO = "//*[@id='domainSubdomain']/div[1]/input";
+    private final String CHOOSE_DOMAIN_FIELD = "//*[@id='weeblyDomain']";
+    private final String CHOOSE_DOMAIN_AVAILABLE = "//*[@id='domainSubdomain-2']/div[5]/div";
+    private final String CHOOSE_DOMAIN_CONTINUE = "//*[@id='chooseDomainDiv']/div[2]/a/span";
+
+
 
     @Test
     public void testSignUp() {
@@ -36,11 +46,6 @@ public class SignUpTest extends WeeblyTest{
         getElement(SIGN_UP_FORM_PASSWORD).sendKeys(PASSWORD);
         getElement(SIGN_UP_FORM_SUBMIT).click();
 
-        // if login screen appears then this user already exists
-
-        //*[@id="choose-theme-heading"]
-
-        //getElement(LOG_IN_FORM_SCREEN);
         try {
             getElement(CHOOSE_THEME_SCREEN);
             Assert.assertTrue(true);
@@ -53,6 +58,23 @@ public class SignUpTest extends WeeblyTest{
         WebElement themeImage = getElement(CHOOSE_THEME_IMAGE);
         action.moveToElement(themeImage).perform();
         action.click(getElement(CHOOSE_THEME_BUTTON)).perform();
+
+        try {
+            getElement(CHOOSE_DOMAIN_SCREEN, 15);
+            Assert.assertTrue(true);
+            logger.debug("Theme selected.");
+        } catch (Exception e) {
+            Assert.assertTrue("Theme could not be created.", false);
+        }
+
+        getElement(CHOOSE_DOMAIN_RADIO).click();
+        getElement(CHOOSE_DOMAIN_FIELD).sendKeys(userName);
+
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        wait.until(ExpectedConditions.textToBePresentInElement(By.xpath(CHOOSE_DOMAIN_AVAILABLE), "Available"));
+
+        getElement(CHOOSE_DOMAIN_CONTINUE).click();
+
 
         if (!DEBUG_MODE) driver.quit();
 
