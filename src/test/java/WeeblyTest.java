@@ -16,7 +16,7 @@ import org.junit.runner.Description;
 
 public class WeeblyTest {
 
-    final boolean DEBUG_MODE = false;
+    final boolean DEBUG_MODE = true;
 
     final String USER_NAME = "Test User";
     final String EMAIL = "user@test.com";
